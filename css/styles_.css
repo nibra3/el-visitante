@@ -1,0 +1,79 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
+
+/*RESET*/
+*{margin: 0px; padding: 0px; 
+    box-sizing: border-box;}
+
+/*------------------------------------HEADER-------------------------------*/
+
+body{font-family:  'Open Sans', Helvetica, Arial, sans-serif; 
+	background-color: #1a1a1a;}
+
+header{background-color: #111111; padding: 20px 40px; display: flex; align-items: center;
+ justify-content: space-between}
+
+h1{color: #ff1800;font-family: 'Oswald', sans-serif; font-size: 36px; margin-right: 70px}
+
+.subtitulo{color: #c0392b; font-size: 13px; font-family: 'Open Sans', sans-serif;}	
+
+header nav ul {display: flex; gap: 20px; list-style: none}
+header nav ul li a{text-decoration: none; color: #f0e6d3; font-family: 'Oswald', sans-serif}
+
+
+
+
+
+/*-----------------------------------MAIN-------------------------------------*/
+
+main{background-color: #1a1a1a}
+section{padding: 40px}
+section ul li {list-style: none; text-align: center; color: #f0e6d3}
+section ul li a{text-decoration: none;}
+
+.secciones{color: #c0392b; font-family: 'Oswald', sans-serif; font-size: 22px; text-align: center; margin-bottom: 16px}
+
+p{color: #f0e6d3; text-align: center; max-width: 600px; margin: 0 auto;}
+
+.parrafos{color: #555; font-size: 13px; margin-bottom: 8px;}
+
+.destacados{background-color: #f0e6d3;}
+
+.destacadoDelMes{color: #c0392b; font-family: 'Oswald', sans-serif; 
+	font-size: 25px; text-align: center; margin-bottom: 30px}
+
+.discos{display: flex; justify-content: center; gap: 40px; margin-bottom: 40px}
+
+.discos article {background-color: #fff; border-radius: 8px; text-align: center; padding: 10px; padding-bottom: 15px;}
+
+.discos article h3 {font-family: 'Oswald', sans-serif; color: #111; margin-bottom: 4px; font-size: 17px}
+
+.precio {font-weight: bold; color: #111111; margin-bottom: 12px}
+
+.botones{color: white; background-color: #c0392b; font-weight: bold; text-decoration: none; font-family: 'Oswald'; padding: 8px 20px;
+border-radius: 5px;}
+
+.albumes{text-align: center;}
+
+.promo-combo{color: #c0392b; font-size: 25px; font-family: 'Oswald', sans-serif; margin-bottom: 10px}
+
+.combos{display: flex; gap: 10px; justify-content: center;}
+
+.formulario {text-align: center; color: #111111;}
+
+
+
+figcaption{color: #c0392b; font-size: 12px; font-weight: bold; text-align: center; padding: 6px 0;}
+
+form {background-color: #f0e6d3; max-width: 600px}
+form fieldset {line-height: 2;}
+form fieldset legend { color: #c0392b; font-weight: bold; font-family: 'Oswald', sans-serif}
+
+
+/*----------------------------------FOOTER------------------------------------*/
+
+footer{background-color: #111111; padding: 40px; display: flex; justify-content: space-between;}
+.info{display: flex; gap: 30px;}
+.copyright{color: #666; font-size: 15px}
+footer div div ul li {list-style: none;}
+footer div div ul li a{text-decoration: none; color: #f0e6d3;}
